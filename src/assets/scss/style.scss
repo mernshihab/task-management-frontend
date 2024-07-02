@@ -1,0 +1,24 @@
+// Bootstrap CSS
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+// Helper SCSS
+
+@import "default/variables";
+@import "default/mixins";
+@import "default/typography";
+@import "default/reset";
+@import "default/animation";
+@import "default/spacing";
+@import "default/quickCode";
+@import "default/extends";
+
+// Custom SCSS
+@import "custom/button";
+@import "custom/custom";
+
+.icon{
+    font-size: 18px;
+}
+.del_icon{
+    font-size: 20px;
+}
